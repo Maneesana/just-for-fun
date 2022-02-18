@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  width: 19vmin;
+  height: auto;
+  position: relative;
+  left: 50%;
+
+  text-align: center;
+
+  margin-top: 13px;
+}
+.nav-images {
+  background: linear-gradient(
+    to bottom right,
+    rgba(130, 101, 224, 0.6),
+    rgba(211, 79, 119, 0.5),
+    rgba(45, 121, 221, 0.5),
+    rgba(207, 174, 64, 0.349)
+  );
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.selection-info {
+  color: #1873c7;
+  font-size: 1.3rem;
+  padding: 2rem;
+  font-weight: 900;
+}
+.text {
+  color: #c25f0f;
+  font-size: 1.3rem;
+  padding: 2rem;
+  font-weight: 900;
+}
+.emote {
+  /* clip-path: polygon(10% 1%, 90% 0, 100% 75%, 4% 85%); */
+  clip-path: circle();
+  padding: 2rem;
+}
+.text--1 {
+  color: #155e61;
+  font-size: 2rem;
+  padding: 2rem;
+  font-weight: 900;
+}
+
+.text--a {
+  color: #155e61;
+}
+
+.text--b {
+  color: #9345ec;
+}
+.select-options {
+  display: flex;
+  gap: 15%;
+  text-align: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.checkbox {
+  width: 2rem;
+  border: none;
+  outline: none;
+  height: 2rem;
+}
+.nav-img-wrapper {
+}
+.nav-img-1 {
+  width: 101.4%;
+}
+.nav-img-2 {
+  top: 0rem;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 5.4vh;
+}
+
+.iphones-images {
+  margin-top: 2rem;
+  padding: 2rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom right,
+    rgba(236, 144, 58, 0.6),
+    rgba(236, 169, 24, 0.5),
+    rgba(212, 95, 120, 0.5),
+    rgba(132, 233, 171, 0.349),
+    rgba(120, 223, 223, 0.6),
+    rgba(78, 111, 218, 0.5),
+    rgba(158, 81, 231, 0.5)
+  );
+}
+
+.intructions-container {
+}
+.all-info-container {
+  padding-top: 3rem;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    to bottom right,
+    rgba(236, 144, 58, 0.6),
+    rgba(236, 169, 24, 0.5),
+    rgba(212, 95, 120, 0.5),
+    rgba(132, 233, 171, 0.349),
+    rgba(120, 223, 223, 0.6),
+    rgba(78, 111, 218, 0.5),
+    rgba(158, 81, 231, 0.5)
+  );
+}
+
+.iphone {
+  width: 20vmin;
+  height: 22vh;
+  cursor: pointer;
+}
+
+.iphone:hover {
+  transform: scale(1.2);
+}
+
+.lower-body {
+  /* display: flex;
+  flex-direction: column; */
+  text-align: center;
+  width: 100%;
+  height: 130vh;
+  background: linear-gradient(
+    to bottom right,
+    rgba(130, 101, 224, 0.6),
+    rgba(211, 79, 119, 0.5),
+    rgba(45, 121, 221, 0.5),
+    rgba(207, 174, 64, 0.349),
+    rgba(141, 113, 233, 0.6),
+    rgba(146, 81, 100, 0.5),
+    rgba(158, 240, 26, 0.5)
+  );
+}
+
+.btn {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgb(48, 195, 240);
+  color: white;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 1.4rem;
+  position: relative;
+}
+.hidden-display-notify {
+  width: 50vmin;
+  opacity: 1;
+  margin-top: 10px;
+  height: 10vh;
+  padding: 1rem;
+
+  opacity: 1;
+  background: linear-gradient(
+    to top left,
+    rgba(234, 255, 255, 0.1),
+    rgba(234, 255, 255, 0.1),
+    rgba(234, 255, 240, 0.3),
+    rgba(234, 255, 240, 0.4),
+    rgba(234, 255, 240, 0.2)
+  );
+  font-size: 1em;
+  padding: 2rem;
+  font-weight: 900;
+}
+.hidden-display-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.share-now-hidden-info {
+  /* background: linear-gradient(
+    to top right,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.8)
+  ); */
+  opacity: 0;
+  border: 3px solid #48a5db;
+  border-radius: 0.8rem;
+  color: #0074d9;
+  padding: 3rem;
+  clip-path: polygon(10% 0, 90% 0, 100% 100%, 0% 100%);
+}
+.join-now-hidden-info {
+  opacity: 0;
+  border-radius: 2rem;
+  border: 3px solid #c971d1e8;
+  clip-path: polygon(10% 1%, 90% 0, 100% 75%, 4% 85%);
+  color: #6166ee;
+}
+
+.btn-share--now {
+  background-color: #2e86c1;
+}
+
+.btn-join--now {
+  background-color: #43a0c5;
+}
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0.3rem 0.3em 10px rgba(75, 68, 68, 0.548);
+}
